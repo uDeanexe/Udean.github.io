@@ -155,37 +155,77 @@ section h2 {
     margin-top: 0;
 }
 
-/* GitHub Button */
-#portfolio {
+/* Portfolio Section */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.portfolio-item img {
+    width: 100%;
+    display: block;
+}
+
+.portfolio-item h3 {
+    padding: 15px 20px 5px;
+    margin: 0;
+    color: #4682B4;
+}
+
+.portfolio-item p {
+    padding: 0 20px 15px;
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+
+/* Contact Section */
+#contact {
     text-align: center;
 }
 
-.github-btn {
-    display: inline-block;
-    background: #333;
-    color: #fff;
-    padding: 12px 25px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.1rem;
-    transition: background-color 0.3s, transform 0.3s;
-}
-
-.github-btn:hover {
-    background: #555;
-    transform: scale(1.05);
-}
-
-/* Contact Section */
 #contact ul {
     list-style: none;
     padding: 0;
     text-align: center;
+    display: inline-block; /* Or use flexbox on parent */
+    margin: 0;
 }
 
 #contact li {
     margin-bottom: 10px;
     font-size: 1.1rem;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #333;
+    font-size: 2rem;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #4682B4; /* SteelBlue */
 }
 
 /* Footer */
