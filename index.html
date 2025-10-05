@@ -1,115 +1,112 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Undangan Khitanan</title>
-    <link rel="stylesheet" href="undangan.css">
+    <title>Kamaludin - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="bg-ornamen"> <!-- Ornamen background: elemen dekorasi undangan -->
-        <!-- Balon kiri atas -->
-        <svg class="balon balon-1" width="54" height="80" viewBox="0 0 54 80" fill="none"><ellipse cx="27" cy="36" rx="25" ry="36" fill="#ffaec9"/><path d="M27 72v8" stroke="#ff7f50" stroke-width="2"/></svg>
-        <!-- Bintang kanan atas -->
-        <svg class="bintang bintang-1" width="32" height="32" viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="16" fill="#ffe29f"/><path d="M16 6l2 6h6l-5 3.5 2 6L16 18l-5 3.5 2-6-5-3.5h6L16 6z" fill="#ff7f50"/></svg>
-        <!-- Bulan sabit kanan bawah -->
-        <svg class="bulan" width="38" height="38" viewBox="0 0 38 38" fill="none"><circle cx="19" cy="19" r="19" fill="#b5ead7"/><path d="M19 4a15 15 0 1 0 0 30 12 12 0 1 1 0-30z" fill="#fffbe7"/></svg>
-        <!-- Awan kiri bawah -->
-        <svg class="awan" width="48" height="24" viewBox="0 0 48 24" fill="none"><ellipse cx="16" cy="18" rx="16" ry="6" fill="#b5ead7"/><ellipse cx="36" cy="12" rx="12" ry="8" fill="#ffe29f"/></svg>
-        <!-- Confetti kanan bawah -->
-        <svg class="confetti confetti-1" width="18" height="18" viewBox="0 0 18 18" fill="none"><rect x="2" y="2" width="14" height="14" rx="3" fill="#ff7f50"/></svg>
-        <!-- Motif islami/geometris lembut -->
-        <svg class="motif-islami" width="140" height="140" viewBox="0 0 140 140" fill="none"><circle cx="70" cy="70" r="66" stroke="#ffe29f" stroke-width="2"/><path d="M70 30a40 40 0 1 1 0 80a40 40 0 1 1 0-80z" stroke="#b5ead7" stroke-width="1.5"/><path d="M70 50a20 20 0 1 1 0 40a20 20 0 1 1 0-40z" stroke="#ff7f50" stroke-width="1"/></svg>
-    </div>
-    <div class="container"> <!-- Kontainer utama undangan -->
-        <div class="badge-khitanan"> <!-- Badge Khitanan -->
-            <span>
-                <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-                    <circle cx="9" cy="9" r="9" fill="#00bcd4"/>
-                    <path d="M9 3l1.1 3.1h3.3l-2.6 1.9 1.1 3.1L9 9.8l-2.6 1.9 1.1-3.1-2.6-1.9h3.3L9 3z" fill="#fff"/>
-                </svg> 
-                Khitanan
-            </span>
+
+    <header>
+        <div class="container">
+            <h1>Kamaludin</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="header"> <!-- Header undangan -->
-            <div class="ilustrasi-anak"> <!-- Ilustrasi anak laki-laki -->
-                <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
-                    <circle cx="32" cy="32" r="32" fill="#b5ead7"/>
-                    <ellipse cx="32" cy="44" rx="16" ry="12" fill="#fffbe7"/>
-                    <circle cx="32" cy="32" r="12" fill="#ffe29f"/>
-                    <ellipse cx="28" cy="32" rx="2" ry="2.5" fill="#2d2d2d"/>
-                    <ellipse cx="36" cy="32" rx="2" ry="2.5" fill="#2d2d2d"/>
-                    <path d="M28 38c2 2.5 8 2.5 10 0" stroke="#ff7f50" stroke-width="2" stroke-linecap="round"/>
-                    <rect x="26" y="24" width="12" height="5" rx="2.5" fill="#00bcd4"/>
-                    <rect x="28" y="19" width="8" height="5" rx="2.5" fill="#2d2d2d"/>
-                    <rect x="28" y="50" width="8" height="8" rx="2" fill="#00bcd4"/>
-                </svg>
-            </div>
-            <h1>Undangan Khitanan</h1>
-            <p class="nama-tamu">Kepada Yth. Bapak/Ibu/Saudara/i</p>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <img src="https://i.ibb.co/6yv2c2d/kamaludin-photo.png" alt="Photo of Kamaludin">
+            <h2>KAMALUDIN</h2>
+            <p>Mahasiswa Teknik Informatika</p>
         </div>
-        <div class="nama-anak-card"> <!-- Card nama anak -->
-            <h2>Muhammad Azril Syaputra Caniago</h2>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Saya adalah seorang fresh graduate yang saat ini sedang menempuh pendidikan di Universitas Bani Saleh Bekasi, jurusan Teknik Informatika. Semangat saya untuk mendalami ilmu di bidang teknologi informasi begitu kuat, mendorong saya untuk selalu aktif mengikuti perkembangan terbaru dan terus belajar hal-hal baru.
+            </p>
         </div>
-        <div class="content"> <!-- Isi undangan -->
-            <p class="salam">Assalamu'alaikum Warahmatullahi Wabarakatuh,</p>
-            <p class="ajakan">Dengan penuh syukur, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dalam acara khitanan putra kami:</p>
-            <div class="detail-acara"> <!-- Detail acara -->
-                <div class="detail-card"> <!-- Hari/Tanggal -->
-                    <span class="icon-detail">
-                        <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
-                            <rect x="3" y="5" width="18" height="14" rx="4" fill="#b5ead7"/>
-                            <rect x="3" y="8" width="18" height="2" fill="#00bcd4"/>
-                            <rect x="8" y="13" width="8" height="2" rx="1" fill="#ff7f50"/>
-                        </svg>
-                    </span>
-                    <span class="label">Hari/Tanggal</span>
-                    <span class="value">Minggu, 3 Agustus 2025</span>
+    </section>
+
+    <section id="education" class="alternate-bg">
+        <div class="container">
+            <h2>Education & Certifications</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>2024 | Peserta pelatihan ASSOCIATE DATA SCIENTIST</h3>
+                    <p>Vocational School Graduate Academy (VSGA)</p>
                 </div>
-                <div class="detail-card"> <!-- Waktu -->
-                    <span class="icon-detail">
-                        <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
-                            <circle cx="12" cy="12" r="10" fill="#b5ead7"/>
-                            <path d="M12 6v6l4 2" stroke="#00bcd4" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </span>
-                    <span class="label">Waktu</span>
-                    <span class="value">10.00 WIB - selesai</span>
+                <div class="timeline-item">
+                    <h3>2018 - 2020 | MA nurul azhar setu</h3>
+                    <p>Jurusan MIPA</p>
                 </div>
-                <div class="detail-card"> <!-- Lokasi -->
-                    <span class="icon-detail">
-                        <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
-                            <path d="M12 22s8-7 8-13A8 8 0 1 0 4 9c0 6 8 13 8 13z" fill="#ff7f50"/>
-                            <circle cx="12" cy="9" r="3" fill="#fffbe7"/>
-                        </svg>
-                    </span>
-                    <span class="label">Tempat</span>
-                    <a class="lokasi-link" href="https://maps.app.goo.gl/X6kNEvj1K7TEFPZT7" target="_blank">Lihat Lokasi</a>
+                <div class="timeline-item">
+                    <h3>2016 - 2018 | SMPN Satu Atap Cibitung</h3>
+                </div>
+                <div class="timeline-item">
+                    <h3>2010 - 2016 | SDN Cibuntu 05</h3>
                 </div>
             </div>
-            <!-- Tidak ada tombol konfirmasi kehadiran, hanya tampilan undangan -->
-            <div class="ucapan"> <!-- Ucapan penutup -->
-                <p>Merupakan kehormatan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu untuk putra kami.</p>
-                <p>Wassalamu'alaikum Warahmatullahi Wabarakatuh</p>
-            </div>
-            <div class="doa-khitanan"> <!-- Doa singkat -->
-                <p>Semoga menjadi anak sholeh, sehat, dan berbakti kepada orang tua. Aamiin.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Pemograman</h3>
+                    <p>HTML, PHP, Python, Java, CSS, SQL</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Sistem Operasi</h3>
+                    <p>Menginstalasi Sistem Operasi</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Office</h3>
+                    <p>Word, Excel, PowerPoint</p>
+                </div>
             </div>
         </div>
-        <div class="footer"> <!-- Footer undangan -->
-            <div class="icon-keluarga"> <!-- Icon keluarga kecil -->
-                <svg width="48" height="28" viewBox="0 0 48 28" fill="none">
-                    <ellipse cx="12" cy="24" rx="10" ry="4" fill="#b5ead7"/>
-                    <ellipse cx="36" cy="24" rx="10" ry="4" fill="#ffe29f"/>
-                    <circle cx="12" cy="16" r="6" fill="#00bcd4"/>
-                    <circle cx="36" cy="16" r="6" fill="#ff7f50"/>
-                    <circle cx="24" cy="12" r="8" fill="#b5ead7"/>
-                </svg>
-            </div>
-            <p>Hormat kami,</p>
-            <p>Keluarga Besar bapak nahrul caniago &amp; Ibu meriyati pasaribu</p>
-            <p class="terimakasih">Terima kasih atas doa dan kehadirannya</p>
+    </section>
+
+    <section id="portfolio" class="alternate-bg">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <p>You can view my projects on my GitHub profile.</p>
+            <a href="https://github.com/your-github-username" class="github-btn" target="_blank">View My GitHub</a>
         </div>
-    </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <ul>
+                <li><strong>Email:</strong> kamaludinpasaribu8@gmail.com</li>
+                <li><strong>No. HP:</strong> +628996940865</li>
+                <li><strong>Alamat:</strong> Jl. Jati Indah No.58, Cibuntu, Kec. Cibitung, Kabupaten Bekasi, Jawa Barat 17520</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Kamaludin. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
