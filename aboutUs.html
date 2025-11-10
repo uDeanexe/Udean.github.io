@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>About Us - ScaleSys</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#007BFF",
+                        "background-light": "#F8F9FA",
+                        "background-dark": "#121212",
+                    },
+                    fontFamily: {
+                        display: ["Poppins", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.5rem",
+                    },
+                },
+            },
+        };
+    </script>
+    <style>
+        .hero-bg-about {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuD_uIQ5joINecoU42edWjcx0T7Tl6-HX8M8jbRT-TfBBi0dRgNNxm_fJNTxrSVvOQOw5IgBmWLgDV4Kkt0pkeinqAUnlLUfazEvf3wtVpKQW9XJnN_jZFcpCTNjNVgZ_gQfn1Xean1m3Ws9TjJ-oFfeOtJ48ZzGEkLXFS8P41z421tz56Q_-pvnjaANSB_DaENAQYjZnDuasx-eMA6rDJI6MTh1g2VCv88w8E7-j4kksWb4vpc4xv2M8UoHVRBJP-0e2KVPZ5gntxc');
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -0.875rem;
+            top: 0;
+            width: 1.75rem;
+            height: 1.75rem;
+            border-radius: 50%;
+            background-color: #007BFF;
+            border: 4px solid #F8F9FA;
+        }
+
+        .dark .timeline-item::before {
+            border-color: #121212;
+        }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+    <header class="bg-white/80 dark:bg-background-dark/80 backdrop-blur-sm sticky top-0 z-50 shadow-sm">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex-shrink-0">
+                    <a class="flex items-center space-x-2" href="index.html">
+                        <span class="material-icons-outlined text-primary text-3xl">scale</span>
+                        <span class="text-xl font-bold text-gray-900 dark:text-white">ScaleSys</span>
+                    </a>
+                </div>
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors"
+                        href="#">Products</a> <!-- No Products.html provided -->
+                    <a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors"
+                        href="Solutions.html">Solutions</a>
+                    <a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors"
+                        href="Services.html">Service</a>
+                    <a class="text-sm font-medium text-primary dark:text-primary" href="aboutUs.html">About Us</a>
+                </nav>
+                <div class="flex items-center space-x-4">
+                    <button
+                        class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300">
+                        <span class="material-icons-outlined">search</span>
+                    </button>
+                    <a class="hidden sm:inline-block bg-primary text-white px-4 py-2 rounded text-sm font-medium hover:opacity-90 transition-opacity" href="ContactUs.html">Contact Us</a>
+                    <button
+                        class="md:hidden p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300">
+                        <span class="material-icons-outlined">menu</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section
+            class="relative h-[50vh] min-h-[350px] hero-bg-about bg-cover bg-center flex items-center justify-center">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-white text-center">
+                <h1 class="text-4xl md:text-6xl font-bold leading-tight">About ScaleSys</h1>
+                <p class="mt-4 text-lg md:text-xl max-w-3xl mx-auto">Innovating the future of precision measurement
+                    since 2005.</p>
+            </div>
+        </section>
+        <section class="py-16 sm:py-24">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl">Our Mission</h2>
+                    <p class="mt-6 text-xl text-gray-600 dark:text-gray-400">To empower industries with the most
+                        reliable and technologically advanced weighing solutions, ensuring accuracy, efficiency, and
+                        trust in every measurement. We are committed to continuous innovation and unparalleled customer
+                        support, driving progress for our partners worldwide.</p>
+                </div>
+            </div>
+        </section>
+        <section class="py-16 sm:py-24 bg-white dark:bg-gray-800/50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-5xl mx-auto">
+                    <div class="text-center mb-16">
+                        <h2 class="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl">Our Journey</h2>
+                        <p class="mt-4 text-lg text-gray-600 dark:text-gray-400">From a small startup to a global leader
+                            in precision technology.</p>
+                    </div>
+                    <div class="relative pl-8 border-l-2 border-primary/20">
+                        <div class="relative pb-12 timeline-item">
+                            <div class="pl-8">
+                                <p class="text-sm font-semibold text-primary">2005</p>
+                                <h3 class="text-xl font-bold text-gray-900 dark:text-white mt-1">Foundation of ScaleSys
+                                </h3>
+                                <p class="mt-2 text-gray-600 dark:text-gray-400">ScaleSys was founded by a team of
+                                    engineers with a passion for precision, aiming to revolutionize the weighing
+                                    industry.</p>
+                            </div>
+                        </div>
+                        <div class="relative pb-12 timeline-item">
+                            <div class="pl-8">
+                                <p class="text-sm font-semibold text-primary">2010</p>
+                                <h3 class="text-xl font-bold text-gray-900 dark:text-white mt-1">First Major Innovation
+                                </h3>
+                                <p class="mt-2 text-gray-600 dark:text-gray-400">Launched our first line of digital
+                                    industrial scales, setting a new standard for durability and accuracy in harsh
+                                    environments.</p>
+                            </div>
+                        </div>
+                        <div class="relative pb-12 timeline-item">
+                            <div class="pl-8">
+                                <p class="text-sm font-semibold text-primary">2015</p>
+                                <h3 class="text-xl font-bold text-gray-900 dark:text-white mt-1">Expansion into Software
+                                    Solutions</h3>
+                                <p class="mt-2 text-gray-600 dark:text-gray-400">Introduced ScaleSync, our proprietary
+                                    software for seamless data integration and analysis, bridging the gap between
+                                    hardware and data.</p>
+                            </div>
+                        </div>
+                        <div class="relative timeline-item">
+                            <div class="pl-8">
+                                <p class="text-sm font-semibold text-primary">2023</p>
+                                <h3 class="text-xl font-bold text-gray-900 dark:text-white mt-1">Global Recognition</h3>
+                                <p class="mt-2 text-gray-600 dark:text-gray-400">Awarded "Innovator of the Year" for our
+                                    development of IoT-enabled smart scales, expanding our presence to over 50
+                                    countries.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-16 sm:py-24">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl">Meet Our Leadership Team
+                    </h2>
+                    <p class="mt-4 text-lg text-gray-600 dark:text-gray-400">The driving force behind our innovation and
+                        success.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+                    <div class="text-center">
+                        <img alt="Jane Doe, CEO" class="w-40 h-40 rounded-full mx-auto mb-4 object-cover"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOuzRPp2ZvtAJoKbfHIziI_oX1KX6Q9BIMhhl_7M4RpOqGhWwZExdouyOKbjzaWhjOgJUsvSdjAFgST9oSKLdrRl3W2Ua9C_OxDBUKUdoyonP_uNfzLZXyUcwQHP3jFAhK8GfS29WjSaWBnleIFYQgFWELIABkoqQMcJm9IeGz8qJTrMXiSdnT_DPMC3vU0qh_IT5zwdIXl3l0ZvPj7HwL7K6bZzJ8699exhvt9rhNaWNPkaU6HgyqNYWkW4KKtCKl182A4MHmcXg" />
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Jane Doe</h3>
+                        <p class="text-primary font-medium">Chief Executive Officer</p>
+                        <p class="mt-2 text-gray-600 dark:text-gray-400 text-sm">With over 20 years of experience in the
+                            tech industry, Jane provides strategic direction and drives the company's vision for a
+                            smarter, more connected world.</p>
+                    </div>
+                    <div class="text-center">
+                        <img alt="John Smith, CTO" class="w-40 h-40 rounded-full mx-auto mb-4 object-cover"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBf5RzgWOKKw6iG8bSW_5ts70e8Fni2L8HqBpOWGKYRg838GHqZ-XW7mGzDjTpQLPOJjP_iQH5J3x5euM1yMWPikCzgqs58hMd2BQX2gO8hF-_skCKd7dXBZB8gIp6aVZWISDmj4Bsb_skDZPQBkVxokyDLjAssurCQTmizoBWhtDXB6BT1RllrLytzI-qYTsV45omZciSSf-C0qBu1u7cz8Y-5qiPbLoUFffeUEvWJ6KTalk_1t0sd3-VCCsRgm7gfnba2nNJbcDM" />
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">John Smith</h3>
+                        <p class="text-primary font-medium">Chief Technology Officer</p>
+                        <p class="mt-2 text-gray-600 dark:text-gray-400 text-sm">John leads our research and development
+                            teams, pushing the boundaries of what's possible in precision measurement technology.</p>
+                    </div>
+                    <div class="text-center">
+                        <img alt="Emily White, COO" class="w-40 h-40 rounded-full mx-auto mb-4 object-cover"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuASUEhQ7HDckEMlt5WfE_SJHExQaCraWf67PFMLTNOxenJcNuVz2-rVqvXFORiTWYEI8Ja_cma4MjIMzDoTP0A5OW8yVuFI8zjUqNV6c2qGQDtrlE0fG6h2r1KNNeHRvPzjSb6XJrHLXuw_wc6CQgcJDJQZKanLBat1vchX2a8ox1GWL7czJ0MS_YDKwCDAN6_oybUNiqBMs4bn152bVXV5LYsNYiqPJ8ANJNc6wLnEFYNLExEH81dXi1e6tX-qvByKsv8AmuQo6Zc" />
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Emily White</h3>
+                        <p class="text-primary font-medium">Chief Operating Officer</p>
+                        <p class="mt-2 text-gray-600 dark:text-gray-400 text-sm">Emily oversees our global operations,
+                            ensuring that our products meet the highest standards of quality and are delivered
+                            efficiently to our customers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+                <div class="bg-gray-800 dark:bg-gray-900 rounded-lg p-8 md:p-12 text-center text-white">
+                    <h2 class="text-3xl font-bold mb-4">Join Our Team</h2>
+                    <p class="max-w-2xl mx-auto text-gray-300 mb-8">Ready to make an impact? We're looking for
+                        passionate individuals to join our mission. Explore our open positions and find your place at
+                        ScaleSys.</p>
+                    <a class="bg-primary text-white px-8 py-3 rounded text-lg font-semibold hover:opacity-90 transition-opacity"
+                        href="#">View Careers</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-900 dark:bg-black text-gray-400">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
+                <div class="col-span-2 lg:col-span-1 mb-8 lg:mb-0">
+                    <a class="flex items-center space-x-2 mb-4" href="index.html">
+                        <span class="material-icons-outlined text-primary text-3xl">scale</span>
+                        <span class="text-xl font-bold text-white">ScaleSys</span>
+                    </a>
+                    <p class="text-sm">Delivering precision and reliability in every measurement.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Products</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="hover:text-white transition-colors" href="#">Laboratory Scales</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">Industrial Scales</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">Checkweighers</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">Software</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Company</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="hover:text-white transition-colors" href="aboutUs.html">About Us</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">Careers</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">News</a></li>
+                        <li><a class="hover:text-white transition-colors" href="ContactUs.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Resources</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="hover:text-white transition-colors" href="Services.html">Support Center</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">Downloads</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-span-2 md:col-span-4 lg:col-span-1">
+                    <h3 class="font-semibold text-white mb-4">Subscribe to our newsletter</h3>
+                    <p class="text-sm mb-4">Get the latest news and updates from ScaleSys.</p>
+                    <form class="flex">
+                        <input
+                            class="w-full rounded-l bg-gray-800 border-gray-700 text-white placeholder-gray-500 focus:ring-primary focus:border-primary"
+                            placeholder="Your email" type="email" />
+                        <button
+                            class="bg-primary text-white px-4 py-2 rounded-r font-semibold hover:opacity-90 transition-opacity"
+                            type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div
+                class="mt-16 pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center text-sm">
+                <p>© 2024 ScaleSys, Inc. All rights reserved.</p>
+                <div class="flex space-x-4 mt-4 sm:mt-0">
+                    <a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+                    <a class="hover:text-white transition-colors" href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

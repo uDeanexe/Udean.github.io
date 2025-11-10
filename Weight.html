@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Solutions - ScaleSys</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#007BFF",
+                        "background-light": "#F8F9FA",
+                        "background-dark": "#121212",
+                        "card-light": "#FFFFFF",
+                        "card-dark": "#1E1E1E",
+                    },
+                    fontFamily: {
+                        display: ["Poppins", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.5rem",
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+    <header class="bg-white/80 dark:bg-background-dark/80 backdrop-blur-sm sticky top-0 z-50 shadow-sm">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex-shrink-0">
+                    <a class="flex items-center space-x-2" href="index.html">
+                        <span class="material-icons-outlined text-primary text-3xl">scale</span>
+                        <span class="text-xl font-bold text-gray-900 dark:text-white">ScaleSys</span>
+                    </a>
+                </div>
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors"
+                        href="#">Products</a> <!-- No Products.html provided -->
+                    <a class="text-sm font-medium text-primary dark:text-primary transition-colors border-b-2 border-primary pb-1"
+                        href="Solutions.html">Solutions</a>
+                    <a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors"
+                        href="Services.html">Service</a>
+                    <a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors"
+                        href="aboutUs.html">About Us</a>
+                </nav>
+                <div class="flex items-center space-x-4">
+                    <button
+                        class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300">
+                        <span class="material-icons-outlined">search</span>
+                    </button>
+                    <a class="hidden sm:inline-block bg-primary text-white px-4 py-2 rounded text-sm font-medium hover:opacity-90 transition-opacity"
+                        href="ContactUs.html">Contact Us</a>
+                    <button
+                        class="md:hidden p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300">
+                        <span class="material-icons-outlined">menu</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="py-20 sm:py-28 bg-white dark:bg-gray-900/50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white leading-tight">Tailored
+                        Solutions for Every Industry</h1>
+                    <p class="mt-6 text-lg text-gray-600 dark:text-gray-400">We understand that every business has
+                        unique challenges. Our comprehensive solutions are designed to integrate seamlessly into your
+                        workflow, enhancing efficiency, accuracy, and compliance across the board.</p>
+                </div>
+            </div>
+        </section>
+        <section class="py-16 sm:py-24">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div
+                        class="bg-card-light dark:bg-card-dark rounded-lg shadow-lg p-8 text-center flex flex-col items-center hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
+                        <div class="bg-primary/10 text-primary p-4 rounded-full mb-6">
+                            <span class="material-icons-outlined text-4xl">biotech</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Pharmaceutical &amp; Lab
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-400">High-precision weighing solutions for research,
+                            quality control, and formulation, ensuring compliance with strict industry standards.</p>
+                    </div>
+                    <div
+                        class="bg-card-light dark:bg-card-dark rounded-lg shadow-lg p-8 text-center flex flex-col items-center hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
+                        <div class="bg-primary/10 text-primary p-4 rounded-full mb-6">
+                            <span class="material-icons-outlined text-4xl">factory</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Industrial Manufacturing
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-400">Robust systems for process control, inventory
+                            management, and quality assurance in demanding manufacturing environments.</p>
+                    </div>
+                    <div
+                        class="bg-card-light dark:bg-card-dark rounded-lg shadow-lg p-8 text-center flex flex-col items-center hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
+                        <div class="bg-primary/10 text-primary p-4 rounded-full mb-6">
+                            <span class="material-icons-outlined text-4xl">local_shipping</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Logistics &amp; Warehousing
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-400">Efficient solutions for shipping, receiving, and
+                            inventory tracking, optimizing your supply chain operations from end to end.</p>
+                    </div>
+                    <div
+                        class="bg-card-light dark:bg-card-dark rounded-lg shadow-lg p-8 text-center flex flex-col items-center hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
+                        <div class="bg-primary/10 text-primary p-4 rounded-full mb-6">
+                            <span class="material-icons-outlined text-4xl">fastfood</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Food &amp; Beverage</h3>
+                        <p class="text-gray-600 dark:text-gray-400">Hygienic and precise weighing systems for recipe
+                            formulation, portion control, and packaging to ensure product quality.</p>
+                    </div>
+                    <div
+                        class="bg-card-light dark:bg-card-dark rounded-lg shadow-lg p-8 text-center flex flex-col items-center hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
+                        <div class="bg-primary/10 text-primary p-4 rounded-full mb-6">
+                            <span class="material-icons-outlined text-4xl">recycling</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Waste &amp; Recycling</h3>
+                        <p class="text-gray-600 dark:text-gray-400">Durable scales and software for managing waste
+                            streams, ensuring regulatory compliance and optimizing recycling processes.</p>
+                    </div>
+                    <div
+                        class="bg-card-light dark:bg-card-dark rounded-lg shadow-lg p-8 text-center flex flex-col items-center hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
+                        <div class="bg-primary/10 text-primary p-4 rounded-full mb-6">
+                            <span class="material-icons-outlined text-4xl">storefront</span>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Retail &amp; Point of Sale
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-400">Accurate and user-friendly retail scales that
+                            integrate with POS systems for seamless transactions and inventory management.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+                <div class="bg-gray-800 dark:bg-gray-900 rounded-lg p-8 md:p-12 text-center text-white">
+                    <h2 class="text-3xl font-bold mb-4">Ready to find your perfect solution?</h2>
+                    <p class="max-w-2xl mx-auto text-gray-300 mb-8">Our team of experts is ready to help you find the
+                        right technology for your business. Get in touch with us today for a personalized consultation.
+                    </p>
+                    <a class="bg-primary text-white px-8 py-3 rounded text-lg font-semibold hover:opacity-90 transition-opacity"
+                        href="ContactUs.html">Contact Sales</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-900 dark:bg-black text-gray-400">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
+                <div class="col-span-2 lg:col-span-1 mb-8 lg:mb-0">
+                    <a class="flex items-center space-x-2 mb-4" href="index.html">
+                        <span class="material-icons-outlined text-primary text-3xl">scale</span>
+                        <span class="text-xl font-bold text-white">ScaleSys</span>
+                    </a>
+                    <p class="text-sm">Delivering precision and reliability in every measurement.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Products</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="hover:text-white transition-colors" href="#">Laboratory Scales</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">Industrial Scales</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">Checkweighers</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">Software</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Company</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="hover:text-white transition-colors" href="aboutUs.html">About Us</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">Careers</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">News</a></li>
+                        <li><a class="hover:text-white transition-colors" href="ContactUs.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Resources</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="hover:text-white transition-colors" href="Services.html">Support Center</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">Downloads</a></li>
+                        <li><a class="hover:text-white transition-colors" href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-span-2 md:col-span-4 lg:col-span-1">
+                    <h3 class="font-semibold text-white mb-4">Subscribe to our newsletter</h3>
+                    <p class="text-sm mb-4">Get the latest news and updates from ScaleSys.</p>
+                    <form class="flex">
+                        <input
+                            class="w-full rounded-l bg-gray-800 border-gray-700 text-white placeholder-gray-500 focus:ring-primary focus:border-primary"
+                            placeholder="Your email" type="email" />
+                        <button
+                            class="bg-primary text-white px-4 py-2 rounded-r font-semibold hover:opacity-90 transition-opacity"
+                            type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div
+                class="mt-16 pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center text-sm">
+                <p>© 2024 ScaleSys, Inc. All rights reserved.</p>
+                <div class="flex space-x-4 mt-4 sm:mt-0">
+                    <a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+                    <a class="hover:text-white transition-colors" href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
